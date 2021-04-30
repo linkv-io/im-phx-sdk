@@ -1,15 +1,3 @@
-# im-phx-sdk
-即时通讯 SDK FOR PHP
-
-composer 引用
-
-```
-composer require linkv-io/shop-php-sdk
-```
-
-
-使用例子
-```
 <?php
 
 require_once 'vendor/autoload.php';
@@ -88,4 +76,3 @@ function test()
 }
 
 test();
-```

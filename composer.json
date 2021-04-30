@@ -1,0 +1,22 @@
+{
+  "name": "linkv-io/im-phx-sdk",
+  "description": "im sdk for php",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "lijian",
+      "email": "lijian@linkv.sg"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php":">=5.6",
+    "ext-json": "*"
+  },
+  "autoload":{
+    "psr-4":{
+      "LinkV\\IM\\": "src/"
+    }
+  }
+}
